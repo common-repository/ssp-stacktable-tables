@@ -1,0 +1,168 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: SSP Stacktable Tables\n"
+"POT-Creation-Date: 2020-09-19 17:34-0700\n"
+"PO-Revision-Date: 2017-03-13 15:55-0700\n"
+"Last-Translator: Stephen Sherrard <dbarproductions@gmail.com>\n"
+"Language-Team: Stephen Sherrard <dbarproductions@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ssp-stacktable-tables.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: shortcodes.php:5
+msgid "Shortcode Usage"
+msgstr ""
+
+#: shortcodes.php:6
+msgid ""
+"You can use the shortcode \"stacktable\" on any page to enqueue the "
+"stacktable script on that page (even if the option above is set to \"None"
+"\"), and include optional \"type\", \"class\", \"headindex\", and "
+"\"showheader\" attributes to specify specific parameters for any tables "
+"shown on that page."
+msgstr ""
+
+#: shortcodes.php:7
+msgid ""
+"Click the below link to visit the script page for examples of view types."
+msgstr ""
+
+#: shortcodes.php:9
+msgid "Shortcode Attributes:"
+msgstr ""
+
+#: shortcodes.php:11
+msgid ""
+"The optional \"type\" attribute can be one of three display types: "
+"stacktable, cardtable, or stackcolumns. The default view is: stacktable"
+msgstr ""
+
+#: shortcodes.php:12
+msgid ""
+"If you add an optional \"class\" attribute, that class will be added to the "
+"wrapper div around the stacktable view, so you can more easily create your "
+"own CSS for that specific view."
+msgstr ""
+
+#: shortcodes.php:13
+msgid ""
+"The optional \"headindex\" attribute allows you to specify the row offset to "
+"locate the table header row. Default is 0 (first row)."
+msgstr ""
+
+#: shortcodes.php:14
+msgid ""
+"The \"showheader\" attribute can have values of \"yes\" or \"no\", with \"yes"
+"\" being the default. This is used to specify if you want to show the "
+"headers when using the default stacktable display type (not used for the "
+"other 2 display types)."
+msgstr ""
+
+#: shortcodes.php:17
+msgid "Example shortcode with all attributes set:"
+msgstr ""
+
+#: ssp-stacktable-tables.php:44
+msgid "Settings"
+msgstr ""
+
+#: ssp-stacktable-tables.php:45
+msgid "Enable on pages: "
+msgstr ""
+
+#: ssp-stacktable-tables.php:46
+msgid "Disable CSS?"
+msgstr ""
+
+#: ssp-stacktable-tables.php:52
+msgid "SSP Stacktable"
+msgstr ""
+
+#: ssp-stacktable-tables.php:77
+msgid "Settings for SSP Stacktable Tables"
+msgstr ""
+
+#: ssp-stacktable-tables.php:84
+msgid "None"
+msgstr ""
+
+#: ssp-stacktable-tables.php:84
+msgid "ALL Pages and Posts"
+msgstr ""
+
+#: ssp-stacktable-tables.php:100
+msgid "Reset to None"
+msgstr ""
+
+#: ssp-stacktable-tables.php:103
+msgid ""
+"Select one or more pages where you want the script to be enqueued. "
+"Stacktable formatting will apply to ALL tables on the selected pages."
+msgstr ""
+
+#: ssp-stacktable-tables.php:104
+msgid ""
+"Select the ALL option to globally load the script on ALL pages of your site. "
+"Select the None option to only load the script on pages that have a "
+"shortcode (see below)."
+msgstr ""
+
+#: ssp-stacktable-tables.php:105
+msgid ""
+"If you use the shortcode on any pages, you do NOT need to select those pages "
+"above."
+msgstr ""
+
+#: ssp-stacktable-tables.php:106
+msgid ""
+"Use the above if you want to use the default stacktable view without having "
+"to the shortcode on the selected pages."
+msgstr ""
+
+#: ssp-stacktable-tables.php:120
+msgid ""
+"Check this to disable the plugin stacktable.css stylesheet. Copy that style "
+"sheet CSS to your theme and modify and add to as desired to customize. <br/"
+"><strong>NOTE: If you do not copy the necessary CSS to your theme, checking "
+"this option will effectively disable the stacktable script since the mobile "
+"breakpoint is defined in the CSS and the mobile class will never get applied."
+"</strong>"
+msgstr ""
+
+#: ssp-stacktable-tables.php:126
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: ssp-stacktable-tables.php:132
+msgid "SSP Stacktable Tables"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/ssp-stacktable-tables"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Reformat tables for mobile devices using the jQuery Stacktable plugin from "
+"John Polacek."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "John Polacek & Stephen Sherrard"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://stephensherrardplugins.com"
+msgstr ""
